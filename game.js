@@ -114,7 +114,7 @@ replayButton.addEventListener("click", () => {
     updateProgressBar(quiz_frida_kahlo.questions,-1)
 });
 function launchtimer(){
-    sec=5
+    sec=20;
     startTimer = setInterval(() =>{
         document.getElementById("timer").innerHTML = sec;
         if (sec <1) {
