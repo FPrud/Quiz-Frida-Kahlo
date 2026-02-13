@@ -18,7 +18,7 @@ const progressContainer = document.querySelector("#progressContainer")
 const comment = document.querySelector("#comment");
 
 //parametres de base de nos fonctions
-let currentQuestionIndex = 7; //permet d'afficher la question et les boutons 0 au round 0
+let currentQuestionIndex = 0; //permet d'afficher la question et les boutons 0 au round 0
 let score = 0;
 let sec = 20; 
 let startTimer
@@ -107,7 +107,7 @@ replayButton.addEventListener("click", () => {
     progressContainer.style.display = "inline";
     currentQuestionIndex = 0;
     score = 0;
-    sec =5;
+    sec = 20;
     document.getElementById("timer").innerHTML =''
     loadQuestion();
     nextButton.style.display = "inline";
