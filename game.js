@@ -20,7 +20,7 @@ const comment = document.querySelector("#comment");
 //parametres de base de nos fonctions
 let currentQuestionIndex = 7; //permet d'afficher la question et les boutons 0 au round 0
 let score = 0;
-let sec = 5; 
+let sec = 20; 
 let startTimer
 //afficher les réponses
 function loadQuestion() { //Fonction pour afficher une question basée sur l'index actuel
